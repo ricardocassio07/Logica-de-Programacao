@@ -1,0 +1,1 @@
+Repositório destinado ao treinamento de lógica de programação, reunindo exercícios e exemplos que abordam estruturas de controle (if/else, for, while e do while), manipulação de vetores e matrizes, criação de variáveis, além de fluxogramas e códigos em Python, com foco no desenvolvimento da clareza, organização e estruturação do código.
