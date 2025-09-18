@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="02"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-18 11:24:18 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xODsiMTE6MjE6MTMgIjsyMDU3"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xODsiMTE6MjQ6MTggIjsxOzIxNzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salario" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor do sal&#225;rio: R$&quot;" newline="True"/>
+            <input variable="salario"/>
+            <assign variable="salario" expression="(salario * 1.15)"/>
+            <output expression="&quot;O sal&#225;rio reajustado &#233; igual a R$&quot; &amp; salario &amp; &quot;!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
