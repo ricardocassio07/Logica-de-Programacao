@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="01"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-18 11:19:15 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xODsiMTE6MTQ6MjIgIjsyMDU5"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xODsiMTE6MTk6MTUgIjsxOzIxNzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lado" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor da medida do lado do quadradro: &quot;" newline="True"/>
+            <input variable="lado"/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="(lado * lado)"/>
+            <output expression="&quot;A &#225;rea do quadrado, cujo valor de seus lados medem &quot; &amp; lado &amp; &quot; unidade(s) de medida(s), &#233; &quot; &amp; area &amp; &quot; unidade(s) de medida(s)!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
