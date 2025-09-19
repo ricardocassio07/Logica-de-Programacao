@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="14"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 12:16:55 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTI6MTI6NDcgIjsyMDY2"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTI6MTY6NTUgIjsxOzIxNzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anguloUm" type="Real" array="False" size=""/>
+            <declare name="anguloDois" type="Real" array="False" size=""/>
+            <declare name="anguloTres" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor de um dos &#227;ngulos do tri&#226;ngulo: &quot;" newline="True"/>
+            <input variable="anguloUm"/>
+            <output expression="&quot;Digite o valor do segundo &#226;ngulo desse tri&#226;ngulo: &quot;" newline="True"/>
+            <input variable="anguloDois"/>
+            <assign variable="anguloTres" expression="(180 - anguloUm - anguloDois)"/>
+            <output expression="&quot;O valor do terceiro &#226;ngulo do tri&#226;ngulo, cujos seus outros &#226;ngulos medem &quot; &amp; anguloUm &amp; &quot;&#176; e &quot; &amp; anguloDois &amp; &quot;&#176;, &#233; &quot; &amp; anguloTres &amp; &quot;&#176;!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

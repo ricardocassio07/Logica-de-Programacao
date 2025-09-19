@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="13"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 12:12:44 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTI6MTA6MTMgIjsyMDU3"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTI6MTI6NDQgIjsxOzIxNzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="qtdAlimentos" type="Real" array="False" size=""/>
+            <declare name="duracao" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a quantidade total de alimentos em kilogramas (Kg): &quot;" newline="True"/>
+            <input variable="qtdAlimentos"/>
+            <assign variable="duracao" expression="((qtdAlimentos/(50/1000)))"/>
+            <output expression="&quot;Os &quot; &amp; qtdAlimentos &amp; &quot;Kg de alimentos ser&#225; suficiente para alimentar essa pessoa por &quot; &amp; duracao &amp; &quot; dias!!!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

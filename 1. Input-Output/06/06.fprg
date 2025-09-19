@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="06"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 11:41:05 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6MzY6MzYgIjsyMDY5"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6NDE6MDUgIjsxOzIxNjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="String" array="False" size=""/>
+            <declare name="y" type="String" array="False" size=""/>
+            <declare name="parametro" type="String" array="False" size=""/>
+            <output expression="&quot;Digite um valor para x: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Digite um valor para y:&quot;" newline="True"/>
+            <input variable="y"/>
+            <assign variable="parametro" expression="y"/>
+            <assign variable="y" expression="x"/>
+            <assign variable="x" expression="parametro"/>
+            <output expression="&quot;x = &quot; &amp; x" newline="True"/>
+            <output expression="&quot;y = &quot; &amp; y" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

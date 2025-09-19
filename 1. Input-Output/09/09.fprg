@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="09"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 11:53:14 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6NDk6NTUgIjsyMDc0"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6NTM6MTQgIjsxOzIxNzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Real" array="False" size=""/>
+            <declare name="y" type="Real" array="False" size=""/>
+            <declare name="resultado" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Digite outro n&#250;mero: &quot;" newline="True"/>
+            <input variable="y"/>
+            <assign variable="resultado" expression="((x ^ 2) + (y ^ 2))"/>
+            <output expression="x &amp; &quot;&#178; + &quot; &amp; y &amp; &quot;&#178; = &quot; &amp; resultado" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

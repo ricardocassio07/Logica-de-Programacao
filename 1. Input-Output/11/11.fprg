@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="11"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 12:01:32 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6NTc6MjUgIjsyMDcw"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTI6MDE6MzIgIjsxOzIxNjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="raio" type="Real" array="False" size=""/>
+            <declare name="comprimento" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor do raio da circunfer&#234;ncia: &quot;" newline="True"/>
+            <input variable="raio"/>
+            <assign variable="comprimento" expression="(2 * raio * pi)"/>
+            <output expression="&quot;O comprimento da circufer&#234;ncia com raio de &quot; &amp; raio &amp; &quot; &#233;, aproximadamente, &quot; &amp; comprimento &amp; &quot; unidades de medida!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

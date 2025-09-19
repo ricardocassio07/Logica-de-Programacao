@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="15"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 12:21:16 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTI6MTY6NTggIjsyMDcy"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTI6MjE6MTYgIjsxOzIxNzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="catetoUm" type="Real" array="False" size=""/>
+            <declare name="catetoDois" type="Real" array="False" size=""/>
+            <declare name="hipotenusa" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor de um dos catetos do tri&#226;ngulo: &quot;" newline="True"/>
+            <input variable="catetoUm"/>
+            <output expression="&quot;Digite o valor do outro cateto do tri&#226;ngulo: &quot;" newline="True"/>
+            <input variable="catetoDois"/>
+            <assign variable="hipotenusa" expression="(((catetoUm * catetoUm) + (catetoDois * catetoDois)) ^ 0.5)"/>
+            <output expression="&quot;O valor da hipotenusa do tri&#226;ngulo ret&#226;ngulo, cujo os seus catetos medem &quot; &amp; catetoUm &amp; &quot; u.n. e &quot; &amp; catetoDois &amp; &quot; u.n., &#233; igual a &quot; &amp; hipotenusa &amp; &quot; u.n.!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

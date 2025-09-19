@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="08"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 11:49:37 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6NDc6MjIgIjsyMDY2"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6NDk6MzcgIjsxOzIxODI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Real" array="False" size=""/>
+            <declare name="valorFinal" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor do dep&#243;sito: &quot;" newline="True"/>
+            <input variable="valor"/>
+            <assign variable="valorFinal" expression="(valor * ((1 + 0.013) * 1))"/>
+            <output expression="&quot;O valor inicial de R$&quot; &amp; valor &amp; &quot;, ap&#243;s 1 m&#234;s, se tornou R$&quot; &amp; valorFinal &amp; &quot;!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

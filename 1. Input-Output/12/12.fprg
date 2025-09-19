@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="12"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 12:09:52 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTI6MDE6MzQgIjsyMDYw"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTI6MDk6NTIgIjsxOzIxNzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anoNas" type="Integer" array="False" size=""/>
+            <declare name="anoAtual" type="Integer" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="idadeFutura" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o ano em que a pessoa nasceu: &quot;" newline="True"/>
+            <input variable="anoNas"/>
+            <output expression="&quot;Digite o ano atual: &quot;" newline="True"/>
+            <input variable="anoAtual"/>
+            <assign variable="idade" expression="(anoAtual - anoNas)"/>
+            <assign variable="idadeFutura" expression="(idade + 17)"/>
+            <output expression="&quot;Essa pessoa tem &quot; &amp; idade &amp; &quot; anos de idade e daqui a 17 anos, ela ter&#225; &quot; &amp; idadeFutura &amp; &quot; anos de idade!!!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

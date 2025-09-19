@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="07"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 11:45:05 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6NDE6NDUgIjsyMDY1"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6NDU6MDUgIjsxOzIxNzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="comprimento" type="Real" array="False" size=""/>
+            <declare name="largura" type="Real" array="False" size=""/>
+            <declare name="altura" type="Real" array="False" size=""/>
+            <declare name="volume" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o comprimento do paralelep&#237;pedo: &quot;" newline="True"/>
+            <input variable="comprimento"/>
+            <output expression="&quot;Digite a largura do paralelep&#237;pedo: &quot;" newline="True"/>
+            <input variable="largura"/>
+            <output expression="&quot;Digite a altura do paralelep&#237;pedo: &quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="volume" expression="(comprimento * largura * altura)"/>
+            <output expression="&quot;O volume do paralelep&#237;pedo &#233; &quot; &amp; volume &amp; &quot; unidades de medida!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

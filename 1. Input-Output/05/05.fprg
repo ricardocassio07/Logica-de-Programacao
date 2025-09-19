@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="05"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 11:36:33 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6MjQ6MzEgIjsyMDYx"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTE6MzY6MzMgIjsxOzIxNzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Real" array="False" size=""/>
+            <declare name="b" type="Real" array="False" size=""/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <declare name="delta" type="Real" array="False" size=""/>
+            <declare name="x1" type="Real" array="False" size=""/>
+            <declare name="x2" type="Real" array="False" size=""/>
+            <output expression="&quot;Sabendo que a estrutura da equa&#231;&#227;o do segundo grau &#233;: Ax&#178; + Bx + C = 0!&quot;" newline="True"/>
+            <output expression="&quot;Digite o coeficiente 'A' da equa&#231;&#227;o: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite o coeficiente 'B' da equa&#231;&#227;o: &quot;" newline="True"/>
+            <input variable="b"/>
+            <output expression="&quot;Digite o coeficiente 'C' da equa&#231;&#227;o: &quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="delta" expression="((b * b) - (4*a*c))"/>
+            <if expression="delta &gt;= 0">
+                <then>
+                    <assign variable="x1" expression="(((-1*b) - (delta^0.5)) / (2*a))"/>
+                    <assign variable="x2" expression="(((-1*b) + (delta^0.5)) / (2*a))"/>
+                    <output expression="&quot;X1 = &quot; &amp; x1" newline="True"/>
+                    <output expression="&quot;X2 = &quot; &amp; x2" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A equa&#231;&#227;o n&#227;o possui ra&#237;zes reais!!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
