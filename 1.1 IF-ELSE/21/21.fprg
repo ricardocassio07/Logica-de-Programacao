@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="21"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 09:47:56 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDk6NDI6MTggIjsyMDcz"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDk6NDc6NTYgIjsxOzIxODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1" type="Real" array="False" size=""/>
+            <declare name="n2" type="Real" array="False" size=""/>
+            <declare name="n3" type="Real" array="False" size=""/>
+            <declare name="n4" type="Real" array="False" size=""/>
+            <declare name="media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota do aluno: &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite a segunda nota do aluno: &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot;Digite a terceira nota do aluno: &quot;" newline="True"/>
+            <input variable="n3"/>
+            <output expression="&quot;Digite a quarta nota do aluno: &quot;" newline="True"/>
+            <input variable="n4"/>
+            <assign variable="media" expression="((n1 + n2 + n3 + n4) / 4)"/>
+            <if expression="media &gt;= 6">
+                <then>
+                    <output expression="&quot;A m&#233;dia final do aluno &#233; igual a &quot; &amp; media &amp; &quot;, portanto, ele EST&#193; APROVADO!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="media &gt;= 3">
+                        <then>
+                            <output expression="&quot;A m&#233;dia final do aluno &#233; igual a &quot; &amp; media &amp; &quot;, portanto, ele FAR&#193; O EXAME!!!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;A m&#233;dia final do aluno &#233; igual a &quot; &amp; media &amp; &quot;, portanto, ele EST&#193; RETIDO!!!&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

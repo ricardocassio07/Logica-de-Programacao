@@ -13,14 +13,5 @@ if ((A < B) and (B < C)):
         print(f"{A} - {B} - {D} - {C}")
     else:
         print(f"{A} - {B} - {C} - {D}")
-elif ((B < C) and (C < D)):
-    if (A < B):
-        print(f"{A} - {B} - {C} - {D}")
-    elif (A < C):
-        print(f"{B} - {A} - {B} - {C}")
-    elif (D < C):
-        print(f"{B} - {C} - {A} - {C}")
-    else:
-        print(f"{B} - {C} - {D} - {A}")
 else:
     print("Você digitou os números de maneira incorreta!!!")

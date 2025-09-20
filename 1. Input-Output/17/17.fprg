@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="17"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 08:30:09 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDg6MjU6MjggIjsyMDc0"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDg6MzA6MDkgIjsxOzIxNzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tempo" type="Real" array="False" size=""/>
+            <declare name="vm" type="Real" array="False" size=""/>
+            <declare name="qtdCombustivel" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o tempo do percuso, em horas: &quot;" newline="True"/>
+            <input variable="tempo"/>
+            <output expression="&quot;Digite a velocidade m&#233;dia da viagem, em Km/h: &quot;" newline="True"/>
+            <input variable="vm"/>
+            <assign variable="qtdCombustivel" expression="((tempo * vm) / 12)"/>
+            <output expression="&quot;Foram gastos &quot; &amp; qtdCombustivel &amp; &quot; litros de combust&#237;vel!!!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

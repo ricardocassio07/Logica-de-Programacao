@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="19"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 09:36:09 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDk6MzM6MzAgIjsyMDY3"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDk6MzY6MDkgIjsxOzIxODQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero real: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Digite outro n&#250;mero real: &quot;" newline="True"/>
+            <input variable="y"/>
+            <if expression="x &gt; y">
+                <then>
+                    <output expression="&quot;Entre &quot; &amp; x &amp; &quot; e &quot; &amp; y &amp; &quot; , o maior n&#250;mero &#233; &quot; &amp; x &amp; &quot;!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Entre &quot; &amp; x &amp; &quot; e &quot; &amp; y &amp; &quot; , o maior n&#250;mero &#233; &quot; &amp; y &amp; &quot;!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="23"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 09:59:08 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDk6NTI6MDIgIjsyMDY3"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDk6NTk6MDggIjsxOzIxODg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Digite 3 n&#250;meros em ordem crescente e um 4&#186; n&#227;o necessariamente em ordem!!!&quot;" newline="True"/>
+            <declare name="A" type="Real" array="False" size=""/>
+            <declare name="B" type="Real" array="False" size=""/>
+            <declare name="C" type="Real" array="False" size=""/>
+            <declare name="D" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Digite mais um n&#250;mero: &quot;" newline="True"/>
+            <input variable="B"/>
+            <output expression="&quot;Digite mais um n&#250;mero: &quot;" newline="True"/>
+            <input variable="C"/>
+            <output expression="&quot;Digite o &#250;ltimo n&#250;mero: &quot;" newline="True"/>
+            <input variable="D"/>
+            <if expression="((A &lt; B) and (B &lt; C))">
+                <then>
+                    <if expression="(D &lt; A)">
+                        <then>
+                            <output expression="D &amp; &quot; - &quot; &amp; A &amp; &quot; - &quot; &amp; B &amp; &quot; - &quot; &amp; C" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="(D &lt; B)">
+                                <then>
+                                    <output expression="A &amp; &quot; - &quot; &amp; D &amp; &quot; - &quot; &amp; B &amp; &quot; - &quot; &amp; C" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="(D &lt; C)">
+                                        <then>
+                                            <output expression="A &amp; &quot; - &quot; &amp; B &amp; &quot; - &quot; &amp; D &amp; &quot; - &quot; &amp; C" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="A &amp; &quot; - &quot; &amp; B &amp; &quot; - &quot; &amp; C &amp; &quot; - &quot; &amp; D" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; digitou os n&#250;meros de maneira incorreta!!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

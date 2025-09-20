@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="22"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 09:50:42 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDk6NDg6MDUgIjsyMDc1"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDk6NTA6NDIgIjsxOzIxNzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero inteiro: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Digite outro n&#250;mero inteiro: &quot;" newline="True"/>
+            <input variable="y"/>
+            <if expression="x &gt; y">
+                <then>
+                    <output expression="y &amp; &quot; - &quot; &amp; x" newline="True"/>
+                </then>
+                <else>
+                    <output expression="x &amp; &quot; - &quot; &amp; y" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="16"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 08:25:23 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDg6MTg6NTkgIjsyMDgw"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDg6MjU6MjMgIjsxOzIxNzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="qtdHoras" type="Real" array="False" size=""/>
+            <declare name="valorHora" type="Real" array="False" size=""/>
+            <declare name="salarioBruto" type="Real" array="False" size=""/>
+            <declare name="percentualDesconto" type="Real" array="False" size=""/>
+            <declare name="nDependentes" type="Real" array="False" size=""/>
+            <declare name="salarioLiquido" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a quantidade de horas trabalhadas: &quot;" newline="True"/>
+            <input variable="qtdHoras"/>
+            <output expression="&quot;Digite o valor da hora: &quot;" newline="True"/>
+            <input variable="valorHora"/>
+            <assign variable="salarioBruto" expression="(qtdHoras * valorHora)"/>
+            <output expression="&quot;Digite o percentual de desconto em decimal: &quot;" newline="True"/>
+            <input variable="percentualDesconto"/>
+            <output expression="&quot;Digite o n&#250;mero de dependentes: &quot;" newline="True"/>
+            <input variable="nDependentes"/>
+            <assign variable="salarioLiquido" expression="((salarioBruto - (percentualDesconto * salarioBruto)) + (100 * nDependentes))"/>
+            <output expression="&quot;O trabalhador ir&#225; receber R$&quot; &amp; salarioLiquido &amp; &quot;!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

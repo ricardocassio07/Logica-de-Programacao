@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="18"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 09:33:26 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDg6MzM6MjAgIjsyMDY1"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDk6MzM6MjYgIjsxOzIxODA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <declare name="y" type="Integer" array="False" size=""/>
+            <declare name="diferenca" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero inteiro: &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot;Digite outro n&#250;mero inteiro: &quot;" newline="True"/>
+            <input variable="y"/>
+            <if expression="x &gt; y">
+                <then>
+                    <assign variable="diferenca" expression="(x - y)"/>
+                </then>
+                <else>
+                    <assign variable="diferenca" expression="(y - x)"/>
+                </else>
+            </if>
+            <output expression="&quot;A diferen&#231;a entre &quot; &amp; x &amp; &quot; e &quot; &amp; y &amp; &quot; &#233; igual a &quot; &amp; diferenca &amp; &quot;!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

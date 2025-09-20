@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="24"/>
+        <attribute name="authors" value="ricar"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-19 10:01:12 "/>
+        <attribute name="created" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMDk6NTk6MTIgIjsyMDc1"/>
+        <attribute name="edited" value="cmljYXI7U00tQ0E7MjAyNS0wOS0xOTsiMTA6MDE6MTIgIjsxOzIxNjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero inteiro: &quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="((n%2 == 0) and (n%3 == 0))">
+                <then>
+                    <output expression="&quot;O n&#250;mero &quot; &amp; n &amp; &quot; &#233; divis&#237;vel por 2 e 3!!!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;O n&#250;mero &quot; &amp; n &amp; &quot; n&#227;o &#233; divis&#237;vel por 2 e 3!!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
