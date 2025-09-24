@@ -1,16 +1,16 @@
 # 30: Receba a data de nascimento e a data atual em ano, mês e dia. Calcule e mostre a idade em anos, mese e dias, considerando os anos bissextos:
-# Inserção de dados:
-diaN = (int(input("Digite o dia de nascimento: ")))
-mesN = (int(input("Digite o mês de nascimento: ")))
-anoN = (int(input("Digite o ano de nascimento: ")))
-
-diaA = (int(input("Digite o dia atual: ")))
-mesA = (int(input("Digite o mês atual: ")))
-anoA = (int(input("Digite o ano atual: ")))
 
 # Looping para verificar a coerência das informações:
 verificado = False
 while (verificado == False):
+    # Inserção de dados:
+    diaN = (int(input("Digite o dia de nascimento: ")))
+    mesN = (int(input("Digite o mês de nascimento: ")))
+    anoN = (int(input("Digite o ano de nascimento: ")))
+
+    diaA = (int(input("Digite o dia atual: ")))
+    mesA = (int(input("Digite o mês atual: ")))
+    anoA = (int(input("Digite o ano atual: ")))
     dataDeNascimento = ("válida")
     if ((diaN <= 30) and (mesN == 4 or mesN == 6 or mesN == 9 or mesN == 11)):
         dataDeNascimento = ("válida")
