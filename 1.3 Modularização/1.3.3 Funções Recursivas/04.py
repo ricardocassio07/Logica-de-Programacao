@@ -6,4 +6,5 @@ def fracao(numerador, denominador):
     else:
         return divisao + fracao((numerador - 1), (denominador + 1))
 
-print(fracao(10, 1))
+num = (int(input("Digite um número inteiro: ")))
+print(fracao(num, 1))

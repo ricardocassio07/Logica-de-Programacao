@@ -4,4 +4,5 @@ def serie(n):
         return n + serie(n - 1)
     else:
         return 0
-print(serie(2))
+num = (int(input("Digite um número inteiro: ")))
+print(serie(num))

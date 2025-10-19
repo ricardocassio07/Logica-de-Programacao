@@ -9,4 +9,5 @@ def fatorial(n):
         return 1
     else:
         return n * fatorial (n - 1)
-print(somar(3))
+num = (int(input("Digite um número inteiro: ")))
+print(somar(num))
