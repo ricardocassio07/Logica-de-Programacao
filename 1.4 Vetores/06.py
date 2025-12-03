@@ -1,7 +1,7 @@
 # 6. Criar e coletar um vetor [20] com números aleatórios. Classificar este vetor em ordem crescente e mostre os dados.
 # -> BUBBLE SORT <-
 vetor = []
-for i in range(5):
+for i in range(20):
     num = (int(input("Digite um número: ")))
     vetor.append(num)
 comprimento = len(vetor)
