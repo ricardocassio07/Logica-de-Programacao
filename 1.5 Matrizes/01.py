@@ -3,10 +3,10 @@
 #   b) A quantidade de produtos vendidos por semana;
 #   c) O total de produtos vendidos no mês.
 # Produto: A  B  C
-matriz = [[[],[],[]], # Semana 1
-          [[],[],[]], # Semana 2
-          [[],[],[]], # Semana 3
-          [[],[],[]]] # Semana 4
+matriz = [[0,0,0], # Semana 1
+          [0,0,0], # Semana 2
+          [0,0,0], # Semana 3
+          [0,0,0]] # Semana 4
 # Ordem: | A | B | C |
 vendasMensaisIndividuais = []
 # Ordem: | Semana 1 | Semana 2 | Semana 3 | Semana 4 |
@@ -40,7 +40,7 @@ for linha in range(4):
     for coluna in range(3):
         soma += matriz[linha][coluna]
     totalDeVendasSemanais.append(soma)
-    print(totalDeVendasSemanais)
+    # print(totalDeVendasSemanais)
 
 for valor in vendasMensaisIndividuais:
     totalDeVendasMensais += valor
